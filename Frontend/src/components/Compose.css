@@ -1,0 +1,152 @@
+.compose-heading {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .compose-form {
+    background-color: #070972;
+    background: linear-gradient(to bottom, #000000, #000000);
+    border-radius: 10px;
+    margin: 20px 10%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .compose-input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .visibility-fieldset{
+    margin: 20px 0px;
+    color: white;
+  }
+
+  .visibility-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .visibility-options input[type="radio"] {
+    appearance: none;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 16px;
+    margin: 0px 10px;
+    width: 16px;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .visibility-options input[type="radio"]:checked {
+    background-color: #520505;
+  }
+  
+  .visibility-options input[type="radio"]:hover {
+    transform: scale(1.3);
+  }
+  
+  .visibility-options label {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .compose-submit-btn {
+    background: #070972;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: letter-spacing 0.3s;
+  }
+  
+  .compose-submit-btn:hover {
+    animation: letterSpacingAnimation 1s linear forwards;
+  }
+  
+  @keyframes letterSpacingAnimation {
+    0% {
+      letter-spacing: normal;
+      font-style: italic;
+      font-size: large;
+    }
+    50% {
+      letter-spacing: 10px;
+      font-style: italic;
+      font-size: larger;
+    }
+    100% {
+      letter-spacing: 10px;
+      font-style: italic;
+      font-size: larger;
+    }
+  }
+  
+  
+  
+  
+  
+  .compose-submit-btn:disabled {
+    background-color: #555555;
+    cursor: not-allowed;
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .loader > div {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 5px;
+    animation: loaderAnimation 0.8s infinite;
+  }
+  
+  @keyframes loaderAnimation {
+    0%,
+    20% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(1.5);
+    }
+    60% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* .blockchain-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  } */

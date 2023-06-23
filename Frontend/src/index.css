@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #000000; */
+    /* color: #fe67bb; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    -webkit-box-pack: center;
+    justify-content: center;
+
+    /* background-color: #f5f5f5; */
+    height: 100%;
+    /* background-image: url("../public/Images/bg/10412350_13087.jpg"); */
+    background-position: center;
+    background-size:contain;
+    background-repeat:round;
+    
+    background-color: black;
+    /* background-size: cover; */
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+
+/* .navbar{
+    background-color: black !important;
+} */
+
+#account_nav{
+    color: white !important;
+   
+}
+
+.posts_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.form {
+  width: 30%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form .checkbox {
+  font-weight: 400;
+}
+.form .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: -1px;
+  
+}
+
+.middle{
+  margin-bottom: -1px;
+  margin: 10px 0px;
+  
+}
+
+.bottom {
+  margin-bottom: 10px;
+}
+
+.d-none{
+  display: none;
+}
+
+.border-none{
+  border:none;
+}
+
+.hover-underline:hover{
+  text-decoration: underline;
+}
+
+.otpFormsContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.blockchain-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
